@@ -10,7 +10,7 @@ public class GoogleBillboard {
         double dNum = Double.parseDouble(digits);
         
         if (isPrime(dNum)) {
-            System.out.println("First 10-digit prime found: " + dNum);
+            System.out.println(dNum);
             primeFound = true;
         }
     }
